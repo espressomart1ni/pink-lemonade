@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Personal Planner</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+    .box {
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        background-color: lightpink;
+        border: 1px solid #000;
+        margin: 10px;
+        display: inline-block;
+          align-items: center;
+    }
+    .box p {
+        margin: 0;
+        padding: 10px;
+    }
+    <body>
+        <div class="box">
+            <p>Drink Water</p>
+        </div>
+        <div class="box">
+            <p>Skincare</p>
+        </div>
+        <div class="box">
+            <p>Movement</p>
+        </div>
+        </body>
+</html>
